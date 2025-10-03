@@ -48,17 +48,12 @@ textarea { min-height:80px; resize:vertical }
 .result .row { display:flex; justify-content:space-between; padding:6px 0; border-bottom:1px solid rgba(0,0,0,0.02) }
 .result .row:last-child { border-bottom:0 }
 
-.partners-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:10px }
-@media(min-width:480px){.partners-grid{grid-template-columns:repeat(2,1fr)}}
-.partner { display:flex; align-items:center; gap:12px; padding:10px; border-radius:10px; border:1px solid var(--border) }
-.logo { width:44px; height:44px; border-radius:8px; background:#f1f5f9; display:flex; align-items:center; justify-content:center; font-weight:700; color:var(--muted) }
-.partner .meta { flex:1 }
-.tag { font-size:12px; color:var(--muted) }
+.error { color:red; font-size:12px; margin-top:4px }
 
 footer { background:#1e293b; color:white; text-align:center; padding:20px; margin-top:40px; font-size:13px }
 footer .partners-footer { display:flex; flex-wrap:wrap; gap:20px; justify-content:center; margin-top:10px }
-footer .partners-footer .pf-item { background:white; color:#111827; padding:6px 12px; border-radius:6px; font-size:13px; font-weight:600 }
+footer .partners-footer img { height:60px; object-fit:contain; background:white; padding:6px; border-radius:6px }
 
 .hero { padding:40px 28px; text-align:center; background:#fff5f5 }
-.hero h2 { margin:0; font-size:28px; color:#b91c1c }
-.hero p { margin-top:8px; font-size:16px; color:#7f1d1d }
+.hero h2 { margin:0; font-size:30px; font-weight:700; color:#b91c1c }
+.hero p { margin-top:8px; font-size:17px; color:#374151 }
